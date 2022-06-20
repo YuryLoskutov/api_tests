@@ -11,10 +11,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SelenoidTests {
 
-    //https://selenoid.autotests.cloud/status
-//{"total":20,"used":0,"queued":0,"pending":0,"browsers":
-// {"chrome":{"100.0":{},"99.0":{}},"firefox":{"97.0":{},"98.0":{}},"opera":{"84.0":{},"85.0":{}}}}
-
     @Test
     void checkTotal() {
         given()
