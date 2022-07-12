@@ -8,6 +8,8 @@ import org.aeonbits.owner.Config;
         "classpath:credential.properties"
 })
 public interface CredentialsConfig extends Config {
+
     String login();
     String password();
+
 }

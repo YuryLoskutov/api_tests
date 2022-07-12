@@ -10,4 +10,5 @@ import org.aeonbits.owner.Config;
 public interface RemoteOwner extends Config{
 
     String url();
+
 }
