@@ -1,4 +1,4 @@
-package tests.homeWork;
+package tests.homeWork17;
 
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
