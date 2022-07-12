@@ -9,8 +9,8 @@ import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import tests.config.AppConfig;
-import tests.config.RemoteOwner;
+import config.AppConfig;
+import config.RemoteOwner;
 import tests.helpers.AllureAttachments;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
