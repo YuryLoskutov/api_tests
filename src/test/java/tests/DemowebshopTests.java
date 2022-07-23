@@ -13,7 +13,7 @@ import static helpers.CustomApiListener.withCustomTemplates;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 
-public class DemowebshopTests {
+public class DemowebshopTests extends TestBase {
     static CredentialsConfig credentialsConfig = ConfigFactory.create(CredentialsConfig.class);
     static String login = credentialsConfig.login(),
             password = credentialsConfig.password(),
